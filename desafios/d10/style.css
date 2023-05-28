@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Android;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {margin: 0; padding: 0;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5FCF77;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+header#a {
+    color: aliceblue;
+    background-image: linear-gradient(to bottom, #4dcc86, #2d8351);
+    padding: 5px 10px 1px;
+    margin: 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+header#a > p {
+    margin: 10px 0px;
+}
+
+header#a > p#pa {
+    text-align: center;
+    margin: 30px auto;
+    width: 32%;
+    height: 10%;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+main {
+    background-color: #fff;
+    width: 75%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin: 0px auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    color: #fff;
+    background-color: #1e8856;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+section > h3 {
+    background-image: linear-gradient(to right, #85E69F, #fff);
+    text-align: left;
+    padding: 2px 10px;
+    margin: 10px 20px;
+}
+
+section > p {
+    margin: 10px 20px;
+}
+
+aside {
+    padding: 0px 30px;
+}
+
+h1 {
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    font-family: Android, sans-serif;
+    color: #1e8856;
+    margin: 10px 0px;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    color: #214923;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 10px;
+}
+
+.videoBox {
+    background-color: #45A94A;
+    padding: 20px 20px 50%;
+    margin: 0px;
+    position: relative;
+}
+
+div.videoBox > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.extraBox {
+    background-color: #5FCF77;
+    padding-bottom: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.text {
+    text-indent: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 170);
+}
+
+a:active{
+    color: rgb(0, 206, 137);
+}
+
+li > a {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.extraBox > header {
+    background-color: #1e8856;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.extraBox > ul {
+    list-style-type: "\2714";
+    display: inline-block;
+    padding-left: 40px;
+    margin-right: 15em;
+}
+
+img {
+    max-width: 100%;
+}
