@@ -7,10 +7,12 @@
     <title>Fundo fixo da tela</title>
     <style>
         html {
-            margin: 8px 0
+            margin-right: 0;
+            margin-left: 0;
         }
 
         body {
+            margin: 8px auto;
             height: 100vh;
          /* 
             background-color: black;
@@ -23,12 +25,13 @@
             color > image > position > repeat > [size] > attachment
         */
         background: black url('images/wallpaper002.jpg') center center no-repeat fixed;
+        background-size: cover;
         }
 
         main {
             background-color: white;
-            max-width: 60vw;
-            min-width: 300px;
+            max-width: 80vw;
+            min-width: 280px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
