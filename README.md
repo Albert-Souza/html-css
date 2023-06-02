@@ -3,4 +3,6 @@
 
 Estou aprendendo Desenvolvimento Web
 
-<a href="https://albert-souza.github.io/html-css/desafios/d10/index.html">Desafio 10</a>
+<a href="https://albert-souza.github.io/html-css/desafios/d10">Página Android</a>
+
+<a href="https://albert-souza.github.io/html-css/desafios/d12">Página Cordel Moderno</a>

@@ -51,7 +51,12 @@ section {
     padding: 10vh 5vw;
     line-height: 2em;
     font-family: var(--font3);
-    font-size: 2vw;
+    font-size: 2.5vw;
+}
+
+section > p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 section.normal {
@@ -62,12 +67,25 @@ section.normal {
 section.image {
     background-color: rgb(75, 75, 75);
     color: white;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
 }
 
 section.image > p {
     display: inline-block;
     padding: 1em;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url("imagens/background001.jpg");
+}
+
+section#img02 {
+    background-image: url("imagens/background002.jpg");
 }
 
 footer {
