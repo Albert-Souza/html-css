@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <img src="back-print.jpg" alt="background" id="bg">
+        <h1>Login</h1>
+        <p>Seja bem vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <div class="inputbox">
+                <span class="material-icons">person</span>
+                <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+            </div> <br>
+            <div class="inputbox">
+                <span class="material-icons">key</span>
+                <input type="password" name="pass" id="ipass" required minlength="8" placeholder="sua senha">
+            </div>
+            <div>
+                <input type="submit" value="Entrar" id="signin">
+                <input type="button" value="Esqueci a senha" id="forgot" >
+            </div>
+        </form>
+    </main>
+</body>
+</html>
